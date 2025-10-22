@@ -26,7 +26,6 @@ public class SistemPeminjamanAlatStudio extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         
-        // Ganti "AlatView.fxml" menjadi "DashboardView.fxml"
         Parent root = FXMLLoader.load(getClass().getResource("Dashboard.fxml"));
         
         Scene scene = new Scene(root);
